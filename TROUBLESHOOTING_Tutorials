@@ -1,0 +1,608 @@
+💻🔥 COMPUTER TROUBLESHOOTING MASTER GUIDE
+🎯 Common Laptop & PC Problems + Facts + Diagnosis + Solutions + Interview Knowledge
+🐢 1. Laptop is Running Slow
+🤔 What is Happening?
+
+Your laptop is taking more time than usual to:
+
+Open apps
+Boot Windows
+Open files
+Browse the internet
+🔍 Common Causes
+🧠 High RAM Usage
+
+Example:
+
+Chrome = 20 tabs
+VS Code
+Spotify
+WhatsApp
+
+RAM becomes full.
+
+💾 HDD Instead of SSD
+
+HDD = Mechanical Disk 🐌
+
+SSD = Flash Storage 🚀
+
+SSD is often 5–20x faster.
+
+🦠 Malware/Virus
+
+Background processes consume:
+
+CPU
+RAM
+Network
+🔄 Too Many Startup Programs
+
+Every boot:
+
+Discord
+Steam
+Teams
+OneDrive
+Adobe
+
+All start together.
+
+🩺 Diagnosis
+Task Manager
+
+Ctrl + Shift + Esc
+
+Check:
+
+CPU %
+RAM %
+Disk %
+
+If Disk = 100%
+
+➡️ Major bottleneck
+
+🛠 Solutions
+✅ Disable Startup Apps
+
+Task Manager
+→ Startup
+
+Disable unnecessary apps.
+
+✅ Upgrade HDD → SSD
+
+Biggest performance improvement.
+
+✅ Remove Unused Software
+
+Settings
+→ Apps
+→ Uninstall
+
+✅ Increase RAM
+
+4GB → 8GB
+8GB → 16GB
+
+Huge improvement.
+
+🎤 Interview Knowledge
+
+Performance Bottlenecks:
+
+CPU
+RAM
+Storage
+Network
+
+Slow system ≠ always weak CPU.
+
+🌐 2. Wi-Fi Not Connecting
+🤔 What is Happening?
+
+Laptop cannot access internet.
+
+🔍 Common Causes
+📶 Router Problem
+
+Router may:
+
+Freeze
+Overheat
+Lose ISP connection
+🔑 Wrong Password
+
+Authentication fails.
+
+🛜 Wi-Fi Driver Issue
+
+OS cannot communicate with Wi-Fi adapter.
+
+✈️ Airplane Mode Enabled
+
+Wireless devices disabled.
+
+🩺 Diagnosis
+Test 1
+
+Can phone connect?
+
+✅ Yes → Laptop issue
+
+❌ No → Router issue
+
+Test 2
+
+Ping Google DNS
+
+ping 8.8.8.8
+🛠 Solutions
+🔄 Restart Router
+
+Wait 30 seconds.
+
+🔄 Forget Network
+
+Reconnect.
+
+📥 Reinstall Wi-Fi Driver
+
+Device Manager
+→ Network Adapter
+
+🎤 Interview Knowledge
+
+Flow:
+
+Application
+↓
+TCP/IP
+↓
+Network Driver
+↓
+Wi-Fi Adapter
+↓
+Router
+↓
+Internet
+
+🔵 3. Bluetooth Not Working
+🤔 What is Happening?
+
+Bluetooth devices cannot pair.
+
+🔍 Causes
+
+🔋 Device battery low
+
+📡 Bluetooth service stopped
+
+🧑‍💻 Driver corrupted
+
+📶 Signal interference
+
+🩺 Diagnosis
+
+Check:
+
+Settings
+→ Bluetooth
+
+Is Bluetooth toggle visible?
+
+❌ No
+
+Likely driver issue.
+
+🛠 Solutions
+
+✅ Restart Bluetooth
+
+✅ Remove and Pair Again
+
+✅ Update Driver
+
+🎤 Interview Knowledge
+
+Bluetooth works in:
+
+2.4 GHz band
+
+Same as Wi-Fi.
+
+Interference is common.
+
+🔌 4. USB Device Not Detected
+🤔 What is Happening?
+
+USB inserted.
+
+Nothing happens.
+
+🔍 Causes
+⚡ Damaged USB Port
+
+Physical issue.
+
+🔋 Insufficient Power
+
+External HDD needs more power.
+
+🧑‍💻 Driver Failure
+
+USB controller issue.
+
+🩺 Diagnosis
+
+Try:
+
+Another port
+Another USB device
+🛠 Solutions
+
+✅ Restart
+
+✅ Update USB Drivers
+
+✅ Disable USB Power Saving
+
+🎤 Interview Knowledge
+
+USB follows:
+
+Plug
+↓
+Enumeration
+↓
+Driver Loading
+↓
+Ready
+
+Failure anywhere = device not detected.
+
+🔥 5. Laptop Heating
+🤔 What is Happening?
+
+Temperature rises excessively.
+
+🔍 Causes
+
+🧹 Dust
+
+🌀 Fan blockage
+
+🎮 Heavy gaming
+
+🧑‍💻 Background processes
+
+Thermal paste aging
+
+🩺 Diagnosis
+
+Check temperature:
+
+HWMonitor
+Core Temp
+🌡 Temperature Guide
+
+🟢 35–60°C Normal
+
+🟡 60–80°C Heavy Load
+
+🔴 90°C+ Dangerous
+
+🛠 Solutions
+
+🧹 Clean vents
+
+🌀 Clean fans
+
+❄️ Cooling pad
+
+🧴 Replace thermal paste
+
+🎤 Interview Knowledge
+
+CPU uses:
+
+Thermal Throttling
+
+to prevent damage.
+
+🔋 6. Battery Draining Fast
+🔍 Causes
+
+🌞 High brightness
+
+🎮 Gaming
+
+🔄 Background apps
+
+🔋 Battery aging
+
+🩺 Diagnosis
+
+Command:
+
+powercfg /batteryreport
+🛠 Solutions
+
+🔅 Lower brightness
+
+🌙 Battery Saver
+
+❌ Disable startup apps
+
+🔋 Replace battery if health low
+
+🎤 Interview Knowledge
+
+Battery health decreases because of charge cycles.
+
+⌨️ 7. Keyboard Keys Not Working
+🔍 Causes
+
+🧹 Dust
+
+💧 Liquid damage
+
+🧑‍💻 Driver issue
+
+🔒 Fn Lock
+
+🩺 Diagnosis
+
+Open Notepad.
+
+Test every key.
+
+🛠 Solutions
+
+✅ Fn + Esc
+
+✅ Restart
+
+✅ Reinstall keyboard driver
+
+🎤 Interview Knowledge
+
+Keyboard sends:
+
+Scan Code
+↓
+Keyboard Driver
+↓
+OS
+
+🖥️ 8. Screen Flickering
+🔍 Causes
+
+🎮 Graphics Driver
+
+🔌 Loose cable
+
+⚡ Refresh rate issue
+
+🩺 Diagnosis
+
+Task Manager flickers?
+
+YES → Driver issue
+
+NO → App issue
+
+🛠 Solutions
+
+✅ Update GPU Driver
+
+✅ Change Refresh Rate
+
+🎤 Interview Knowledge
+
+Refresh Rate:
+
+60Hz = 60 updates/sec
+
+144Hz = 144 updates/sec
+
+🌍 9. Internet is Slow
+🔍 Causes
+
+📶 Weak signal
+
+👨‍👩‍👧 Multiple users
+
+📡 ISP issue
+
+🦠 Malware
+
+🩺 Diagnosis
+
+Use:
+
+Speed Test
+
+Compare:
+
+Download
+Upload
+Ping
+🛠 Solutions
+
+📍 Move near router
+
+🔄 Restart router
+
+📶 Use 5GHz Wi-Fi
+
+🎤 Interview Knowledge
+
+Bandwidth ≠ Speed
+
+Latency also matters.
+
+🖨️ 10. Printer Not Printing
+🔍 Causes
+
+📄 Paper jam
+
+🧑‍💻 Driver issue
+
+🖨️ Print spooler stopped
+
+🩺 Diagnosis
+
+Check:
+
+Services
+→ Print Spooler
+
+🛠 Solutions
+
+🔄 Restart spooler
+
+📥 Reinstall printer driver
+
+🧹 Clear print queue
+
+🎤 Interview Knowledge
+
+Printing Process:
+
+Application
+↓
+Spooler
+↓
+Printer Driver
+↓
+Printer
+
+💀 11. Windows Blue Screen (BSOD)
+🤔 What is Happening?
+
+Windows crashes and shows a blue screen.
+
+🔍 Causes
+
+🧑‍💻 Driver conflict
+
+💾 Bad RAM
+
+🔥 Overheating
+
+💽 Disk corruption
+
+🩺 Diagnosis
+
+Look at:
+
+STOP CODE
+
+Example:
+
+MEMORY_MANAGEMENT
+CRITICAL_PROCESS_DIED
+🛠 Solutions
+
+✅ Update drivers
+
+✅ Run memory test
+
+✅ Check disk health
+
+🎤 Interview Knowledge
+
+BSOD occurs when:
+
+Kernel detects unrecoverable error.
+
+🚀 12. Windows Takes Too Long to Boot
+🔍 Causes
+
+🐢 HDD
+
+📦 Too many startup apps
+
+🦠 Malware
+
+🛠 Solutions
+
+🚀 SSD upgrade
+
+🚀 Disable startup apps
+
+🚀 Clean Windows installation
+
+🎤 Interview Knowledge
+
+Boot Sequence:
+
+Power ON
+⚡
+BIOS/UEFI
+⚡
+Bootloader
+⚡
+Kernel
+⚡
+Drivers
+⚡
+Login Screen
+
+🏆 GOLDEN RULE OF TROUBLESHOOTING
+
+Whenever any problem occurs:
+
+1️⃣ Reproduce Problem
+
+Can you see it again?
+
+2️⃣ Identify Cause
+
+Hardware or Software?
+
+3️⃣ Isolate Components
+
+Test one thing at a time.
+
+4️⃣ Apply Fix
+
+Start from easiest solution.
+
+5️⃣ Verify
+
+Did problem disappear?
+
+6️⃣ Prevent Future Issues
+
+Update, clean, monitor.
+
+🎯 Ultimate Interview Formula
+
+Whenever interviewer asks:
+
+❓ "System is slow. What will you do?"
+
+Answer:
+
+✅ Gather information
+
+✅ Check Task Manager
+
+✅ Check CPU/RAM/Disk
+
+✅ Check startup programs
+
+✅ Check malware
+
+✅ Check storage health
+
+✅ Check hardware bottleneck
+
+✅ Implement fix
+
+✅ Verify performance
+
+This structured troubleshooting approach works for almost every real-world IT, OS, Helpdesk, System Administrator, Technical Support, and Software Engineer scenario. 🚀💻🔥
