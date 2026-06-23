@@ -1,0 +1,22 @@
+🏆 Top 20 "Never Miss" OS Interview Facts
+
+✅ Process = Program in Execution
+✅ Thread = Lightweight Process
+✅ PCB stores Process Information
+✅ FCFS → Convoy Effect
+✅ SJF → Minimum Average Waiting Time
+✅ RR → Time Quantum
+✅ Priority Scheduling → Starvation
+✅ Aging → Prevents Starvation
+✅ Semaphore → Synchronization
+✅ Mutex → Mutual Exclusion
+✅ Deadlock = 4 Coffman Conditions
+✅ Banker's Algorithm → Deadlock Avoidance
+✅ Paging removes External Fragmentation
+✅ Fixed Partitioning → Internal Fragmentation
+✅ Dynamic Partitioning → External Fragmentation
+✅ Compaction removes External Fragmentation
+✅ Page Fault → Page not in RAM
+✅ Thrashing → Excessive Page Faults
+✅ fork() → Create Process
+✅ exec() → Replace Process Image
