@@ -1,0 +1,14 @@
+
+----------------------------------------------------------------
+|Question                         | Answer                     |
+| ------------------------------- | -------------------------- |
+| Package imported automatically? | `java.lang`                |
+| Root class of Java?             | `Object`                   |
+| Pure OOP language?              | `Smalltalk`                |
+| Is Java purely OOP?             | No                         |
+| Why not?                        | Primitive data types exist |
+| Runtime Polymorphism?           | Method Overriding          |
+| Compile-Time Polymorphism?      | Method Overloading         |
+| Multiple inheritance in Java?   | Through Interfaces         |
+| Every class inherits from?      | `Object`                   |
+|--------------------------------------------------------------|
